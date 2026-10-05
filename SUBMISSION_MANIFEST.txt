@@ -1,0 +1,21 @@
+Submission ID: F2023376179
+Course: Artificial Neural Networks and Deep Learning (AI473)
+Project: Fashion-MNIST Clothing Item Recognition
+
+Required deliverables:
+- report/f2023376179_CCP_Report.pdf
+- f2023376179_fashion_mnist.ipynb
+- src/main.py and supporting source files
+
+Generated experiment outputs:
+- outputs/comparison.csv
+- outputs/metrics.json
+- outputs/loss_curves.png
+- outputs/accuracy_curves.png
+- outputs/mlp_confusion_matrix.png
+- outputs/cnn_confusion_matrix.png
+- models/mlp_fashion_mnist.pt
+- models/cnn_fashion_mnist.pt
+
+Reproduction command:
+python src/main.py --epochs 5 --train-subset 60000

@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-05",
+  "title": "Fashion-MNIST MLP and CNN coursework",
+  "runtime_verified_for_publication": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "5d88202b853217c723bde4ea54206901e0bb7f1e0e782347d799332a294adc6f",
+      "bytes": 421
+    },
+    {
+      "path": "f2023376179_fashion_mnist.ipynb",
+      "sha256": "600adac4f8f78927416dd793d0b43ff8ec812039acbcf82246e586188af94fbd",
+      "bytes": 6476
+    },
+    {
+      "path": "README.md",
+      "sha256": "f63c389f79a30364e4043912b637a588048ebbe236ead0615ff3862c1c5f4064",
+      "bytes": 1819
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "a62524409afa3c491c1881ce5fc3b601c776c886b62c77357445ceaa6b1f13c3",
+      "bytes": 66
+    },
+    {
+      "path": "SUBMISSION_MANIFEST.txt",
+      "sha256": "ceccd66610c267f1fad7be8ee3ce56e042b606b90cc5732c8c6bfa11c08b1c02",
+      "bytes": 612
+    },
+    {
+      "path": "src/data.py",
+      "sha256": "263abb6a665591f65182eec05ebf9a30e4ccce44391728b810feb44d0887fe9b",
+      "bytes": 1864
+    },
+    {
+      "path": "src/evaluate.py",
+      "sha256": "151d4cc577761e91c3f2e68751caee8649bc67736330833471137922a6ca09db",
+      "bytes": 1542
+    },
+    {
+      "path": "src/main.py",
+      "sha256": "ff9161b5dab1d7729c3389c30f63f936fb2e97d4166da032590ddb42542f7600",
+      "bytes": 4366
+    },
+    {
+      "path": "src/models.py",
+      "sha256": "2faa9d6adf53b45cca58c44c6955f80d8c55135a046631d3eee275e8cdf4b177",
+      "bytes": 1331
+    },
+    {
+      "path": "src/plots.py",
+      "sha256": "3a6ad4d0ebdbdb5ee2db5f69a8836c6cc821c9c6dc9de1a4f3e071bf72d30f22",
+      "bytes": 2405
+    },
+    {
+      "path": "src/train.py",
+      "sha256": "67f80f6deecee77e2d2a809930371c2351d4af3e446530344dac000293af5dab",
+      "bytes": 2260
+    },
+    {
+      "path": "src/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "additional_sources/f2023376179_two_files/f2023376179_code.py",
+      "sha256": "390ebfd58b65dd11924dd55ea5c73eb2707236015bae3822f6894d6c5e33272a",
+      "bytes": 10011
+    }
+  ]
+}
