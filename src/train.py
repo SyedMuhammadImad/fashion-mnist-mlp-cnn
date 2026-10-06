@@ -55,6 +55,10 @@ def validate(model, loader, criterion, device):
 
 
 def fit_model(model, train_loader, val_loader, device, epochs: int = 5, lr: float = 1e-3):
+    if not isinstance(epochs,int) or epochs < 1 or not np.isfinite(lr) or lr <= 0:
+        raise ValueError('Epochs and finite learning rate must be positive')
+    if len(train_loader.dataset)==0 or len(val_loader.dataset)==0:
+        raise ValueError('Training and validation sets must be nonempty')
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
     history = {

@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-07",
+  "project": "fashion-mnist-mlp-cnn",
+  "completion_scope": "academic project or finished document; not a production certification",
+  "checks": [
+    {
+      "name": "Fresh five-epoch training for MLP and CNN on 18,000 examples, 2,000 validation and 10,000 official test examples",
+      "passed": true
+    },
+    {
+      "name": "Model checkpoint reload/output equivalence and invalid training arguments",
+      "passed": true
+    },
+    {
+      "name": "Every notebook code cell executed against the fresh result files",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Academic Fashion-MNIST benchmark; no deployed vision system. Raw image datasets, plots and weights are excluded."
+  ]
+}

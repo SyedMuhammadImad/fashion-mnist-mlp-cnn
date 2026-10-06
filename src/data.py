@@ -4,6 +4,10 @@ import torch
 from torch.utils.data import DataLoader, Subset, random_split
 from torchvision import datasets, transforms
 
+class FashionMNIST(datasets.FashionMNIST):
+    # Official dataset repository over HTTPS; torchvision verifies resource MD5s.
+    mirrors = ['https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/']
+
 
 CLASS_NAMES = [
     "T-shirt/top",
@@ -28,6 +32,12 @@ def get_loaders(
     num_workers: int = 0,
 ):
     """Load Fashion-MNIST and return train, validation, and test loaders."""
+    if not isinstance(batch_size, int) or batch_size < 1 or num_workers < 0:
+        raise ValueError('Batch size must be positive and worker count nonnegative')
+    if not 0 < val_fraction < 1:
+        raise ValueError('Validation fraction must be between zero and one')
+    if train_subset is not None and (not isinstance(train_subset, int) or train_subset < 2):
+        raise ValueError('Training subset must contain at least two observations')
     transform = transforms.Compose(
         [
             transforms.ToTensor(),
@@ -36,10 +46,10 @@ def get_loaders(
     )
 
     data_dir = Path(data_dir)
-    train_full = datasets.FashionMNIST(
+    train_full = FashionMNIST(
         root=data_dir, train=True, download=True, transform=transform
     )
-    test_set = datasets.FashionMNIST(
+    test_set = FashionMNIST(
         root=data_dir, train=False, download=True, transform=transform
     )
 
@@ -50,6 +60,8 @@ def get_loaders(
 
     val_size = int(len(train_full) * val_fraction)
     train_size = len(train_full) - val_size
+    if min(val_size, train_size) < 1:
+        raise ValueError('Both training and validation sets must be nonempty')
     train_set, val_set = random_split(
         train_full, [train_size, val_size], generator=generator
     )

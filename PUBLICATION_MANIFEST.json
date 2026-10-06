@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-07",
   "title": "Fashion-MNIST MLP and CNN coursework",
-  "runtime_verified_for_publication": false,
+  "completion_gate_passed": true,
   "files": [
     {
       "path": ".gitignore",
@@ -10,18 +10,18 @@
     },
     {
       "path": "f2023376179_fashion_mnist.ipynb",
-      "sha256": "600adac4f8f78927416dd793d0b43ff8ec812039acbcf82246e586188af94fbd",
-      "bytes": 6476
+      "sha256": "22af0383567b5e3872c220787c26249aa5568c09673c77d68b8f5aabd7f99d42",
+      "bytes": 6660
     },
     {
       "path": "README.md",
-      "sha256": "f63c389f79a30364e4043912b637a588048ebbe236ead0615ff3862c1c5f4064",
-      "bytes": 1819
+      "sha256": "422669d413466459a51818a898ee5c1c6b7e7d11a69cb0f640f9f85c035d7fb0",
+      "bytes": 781
     },
     {
       "path": "requirements.txt",
-      "sha256": "a62524409afa3c491c1881ce5fc3b601c776c886b62c77357445ceaa6b1f13c3",
-      "bytes": 66
+      "sha256": "44934146c51ea53c0129515f782d9ea1431ac4afefc5c7d46904e9e55c90c44f",
+      "bytes": 127
     },
     {
       "path": "SUBMISSION_MANIFEST.txt",
@@ -29,9 +29,24 @@
       "bytes": 612
     },
     {
+      "path": "VERIFICATION.json",
+      "sha256": "6fc93df135cc72d72c870a83b9fb4a0a9a617a50c447d70fb53f1104c1d2a895",
+      "bytes": 746
+    },
+    {
+      "path": "results/comparison.csv",
+      "sha256": "97b5c16e016a8e75273ccb560d3f801f07dafe55ba8e93e7078796a79b071d3b",
+      "bytes": 156
+    },
+    {
+      "path": "results/metrics.json",
+      "sha256": "b84caddb48992bd382934cd53d847f3c76e48c643dfd078ba42cd0b3a99ca576",
+      "bytes": 7583
+    },
+    {
       "path": "src/data.py",
-      "sha256": "263abb6a665591f65182eec05ebf9a30e4ccce44391728b810feb44d0887fe9b",
-      "bytes": 1864
+      "sha256": "a2ae610cd2a93ba6412bbe612a2e082adf4eb019847ab374da81b232b4a55ad0",
+      "bytes": 2640
     },
     {
       "path": "src/evaluate.py",
@@ -55,8 +70,8 @@
     },
     {
       "path": "src/train.py",
-      "sha256": "67f80f6deecee77e2d2a809930371c2351d4af3e446530344dac000293af5dab",
-      "bytes": 2260
+      "sha256": "e9dc077294b61a58cf8c3ad564a277b9039eb2becdee28725fb6dd440a0012f3",
+      "bytes": 2561
     },
     {
       "path": "src/__init__.py",
