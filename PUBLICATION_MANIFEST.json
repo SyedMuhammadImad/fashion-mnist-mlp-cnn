@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-07",
-  "title": "Fashion-MNIST MLP and CNN coursework",
+  "date": "2026-10-08",
+  "title": "Fashion-MNIST MLP and CNN project",
   "completion_gate_passed": true,
   "files": [
     {
@@ -9,14 +9,14 @@
       "bytes": 421
     },
     {
-      "path": "f2023376179_fashion_mnist.ipynb",
-      "sha256": "22af0383567b5e3872c220787c26249aa5568c09673c77d68b8f5aabd7f99d42",
-      "bytes": 6660
+      "path": "fashion_mnist_models.ipynb",
+      "sha256": "aeb8599ffdb91c294bdde249263956d6fb46015c65fb9580afe588a798c31ced",
+      "bytes": 6593
     },
     {
       "path": "README.md",
-      "sha256": "422669d413466459a51818a898ee5c1c6b7e7d11a69cb0f640f9f85c035d7fb0",
-      "bytes": 781
+      "sha256": "b6dca634b0eac9ff9ef071c22097e2c3f3dc0e6ac4e1c3d2bb4ace24b0cc522a",
+      "bytes": 791
     },
     {
       "path": "requirements.txt",
@@ -24,14 +24,9 @@
       "bytes": 127
     },
     {
-      "path": "SUBMISSION_MANIFEST.txt",
-      "sha256": "ceccd66610c267f1fad7be8ee3ce56e042b606b90cc5732c8c6bfa11c08b1c02",
-      "bytes": 612
-    },
-    {
       "path": "VERIFICATION.json",
-      "sha256": "6fc93df135cc72d72c870a83b9fb4a0a9a617a50c447d70fb53f1104c1d2a895",
-      "bytes": 746
+      "sha256": "2efb53088f75551d034fd5ef84d55f9fd1d8b0e7687b209b68c02ed68a91cd80",
+      "bytes": 754
     },
     {
       "path": "results/comparison.csv",
@@ -45,43 +40,43 @@
     },
     {
       "path": "src/data.py",
-      "sha256": "a2ae610cd2a93ba6412bbe612a2e082adf4eb019847ab374da81b232b4a55ad0",
-      "bytes": 2640
+      "sha256": "2119cdc8df1659159f0dfa850e0e45d855425960be38d3334114161370c2ce70",
+      "bytes": 2717
     },
     {
       "path": "src/evaluate.py",
-      "sha256": "151d4cc577761e91c3f2e68751caee8649bc67736330833471137922a6ca09db",
-      "bytes": 1542
+      "sha256": "8454a52e9dfd09dafc07a2368a456025bfd36b0d874e6b939c3115af333a671a",
+      "bytes": 1589
     },
     {
       "path": "src/main.py",
-      "sha256": "ff9161b5dab1d7729c3389c30f63f936fb2e97d4166da032590ddb42542f7600",
-      "bytes": 4366
+      "sha256": "439016a8f4e94c6afe5ab2416bbeec75caccb5e254c4a51a7cef98e5a78bf7a9",
+      "bytes": 4498
     },
     {
       "path": "src/models.py",
-      "sha256": "2faa9d6adf53b45cca58c44c6955f80d8c55135a046631d3eee275e8cdf4b177",
-      "bytes": 1331
+      "sha256": "f8c6952e58b1158577fabfdc81ea7ee9587064ccc8bbb1b8e5ecfe179ad2946e",
+      "bytes": 1378
     },
     {
       "path": "src/plots.py",
-      "sha256": "3a6ad4d0ebdbdb5ee2db5f69a8836c6cc821c9c6dc9de1a4f3e071bf72d30f22",
-      "bytes": 2405
+      "sha256": "f7d2e87f95aa14a879d1dbd1c89b6ce02045a01f996fbf46777595c49650fea0",
+      "bytes": 2474
     },
     {
       "path": "src/train.py",
-      "sha256": "e9dc077294b61a58cf8c3ad564a277b9039eb2becdee28725fb6dd440a0012f3",
-      "bytes": 2561
+      "sha256": "6dea1e05b43bea7f7ebe7ac8c34f6a4e00b912138b4d4ca74b604a7ac70199a8",
+      "bytes": 2649
     },
     {
       "path": "src/__init__.py",
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-      "bytes": 1
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "bytes": 2
     },
     {
-      "path": "additional_sources/f2023376179_two_files/f2023376179_code.py",
-      "sha256": "390ebfd58b65dd11924dd55ea5c73eb2707236015bae3822f6894d6c5e33272a",
-      "bytes": 10011
+      "path": "additional_sources/imad_two_files/imad_code.py",
+      "sha256": "32487cdecc2fee7cfe1f7ef37b8d427a57cd71f4b58018b6a6210b2ee131d266",
+      "bytes": 10368
     }
   ]
 }
